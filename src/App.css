@@ -1,0 +1,49 @@
+.trulia-help {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .trulia-help h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .help-options {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .option {
+    max-width: 300px;
+    text-align: center;
+  }
+  
+  .option img {
+    max-width: 100px;
+    margin-bottom: 10px;
+  }
+  
+  .option h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .option p {
+    font-size: 1em;
+    margin-bottom: 20px;
+  }
+  
+  .option button {
+    background-color: #007b8f;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1em;
+  }
+  
+  .option button:hover {
+    background-color: #005f6b;
+  }
+  

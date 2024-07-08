@@ -1,0 +1,72 @@
+.trulia-help {
+  text-align: center;
+}
+.help-options {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.option-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  width: 30%;
+  margin: 1rem;
+}
+.option {
+  border: 1px solid transparent; 
+  padding: 1rem;
+  border-radius: 1px;
+  transition: border-color 0.2s;
+  cursor: pointer;
+}
+.option:active {
+  border-color: #000;
+}
+.btn-Help{
+  margin: auto;
+  display: block;
+  width: 175px;
+}
+.option img {
+  max-width: 100%;
+  height: auto;
+}
+.option h3 {
+  margin-top: 1rem;
+}
+.option p {
+  margin-top: 0.5rem;
+}
+.option button {
+  color: rgb(255, 255, 255);
+    background-color: rgb(0, 120, 130);
+    border-color: transparent;
+    box-shadow: rgba(59, 65, 68, 0.7) 0px 8px 20px -15px;
+    margin-bottom: 16px;
+    outline: none;
+    cursor: pointer;
+}
+.trulia-help {
+  max-width: 960px;
+  margin: 72px auto 36px;
+}
+.option img {
+  max-width: 100%;
+  height: 128px;
+}
+.help-options{
+  display: flex;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-top: -16px;
+    flex-wrap: wrap;
+}
+.option button:hover {
+    color: rgb(0, 120, 130);
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(0, 120, 130);
+    border-radius: 8px;
+    border-width: 1px;
+    border-style: solid;
+}

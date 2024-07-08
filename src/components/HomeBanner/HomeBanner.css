@@ -1,0 +1,63 @@
+.home-banner {
+    height: 70vh;
+    width: 98vw;
+    border-radius: 8px;
+    margin: auto;
+    background-image: url('../../assets/hiDpiExtraLarge.webp');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-shadow: 0 0px 5px rgba(0, 0, 0, 1);
+}
+
+.search-options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+.search-options h1{
+    font-weight: bold;
+    color:#fff;
+    font-size: 50px;
+}
+.search-options h1 {
+    margin-bottom: 20px;
+}
+
+.tab-buttons {
+    justify-content: center;
+    margin-top: 10px;
+    display: flex;
+    background-color: rgba(59, 65, 68, 0.6);
+    border-radius: 8px;
+}
+
+.tab-button {
+    margin: 0 5px; 
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    padding: 8px 24px;
+    border: none;
+    font-weight: normal;
+    cursor: pointer;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.tab-button.active {
+    padding: 8px 24px;
+    border: none;
+    font-weight: normal;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 120, 130);
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 1.2;
+}

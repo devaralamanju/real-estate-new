@@ -1,0 +1,114 @@
+.recently-viewed-container {
+    position: relative;
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.recently-viewed-container h2 {
+    margin-bottom: 20px;
+}
+
+.recently-viewed {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.recently-viewed-item {
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.recently-viewed-item img {
+    width: 240px;
+    height: 160px;
+    border-radius: 10px;
+}
+
+.item-content {
+    text-align: left;
+    position: relative;
+}
+
+.item-content h4 {
+    font-weight: 400;
+}
+
+.recently-viewed-button {
+    position: absolute;
+    top: 50%;
+    border-radius: 50px;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.recently-viewed-button.prev {
+    left: 10px;
+}
+
+.recently-viewed-button.next {
+    right: 10px;
+}
+
+@media (max-width: 600px) {
+    .recently-viewed-item img {
+        width: 100px;
+        height: 100px;
+    }
+    .recently-viewed-item {
+        padding: 5px;
+    }
+}
+
+@media (max-width: 900px) {
+    .recently-viewed-item img {
+        width: 150px;
+        height: 150px;
+    }
+    .recently-viewed-item {
+        padding: 5px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .recently-viewed-item img {
+        width: 200px;
+        height: 200px;
+    }
+    .recently-viewed-item {
+        padding: 10px;
+    }
+}
+.item-content{
+    margin:5px
+}
+.item-content h3{
+    margin-right: 4px;
+    text-transform: uppercase;
+    background-color: rgb(255, 255, 255);
+    color: rgb(59, 65, 68);
+    line-height: 1.33;
+    margin:0;
+    padding: 2px 4px;
+}
+.item-content h4{
+    margin:0;
+}
+.recently-viewed-item img{
+    margin-right: 4px;
+    text-transform: uppercase;
+    background-color: rgb(255, 255, 255);
+    color: rgb(59, 65, 68);
+    font-size: 12px;
+    line-height: 1.33;
+    padding: 2px 4px;
+}
